@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/iron_horse_armor"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 400001
+      },
+      "model": "foxcosmetics:cosmetic/fox_ears"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400002
+      },
+      "model": "foxcosmetics:cosmetic/snow_fox_ears"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400003
+      },
+      "model": "foxcosmetics:cosmetic/fox_tail"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400004
+      },
+      "model": "foxcosmetics:cosmetic/snow_fox_tail"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400005
+      },
+      "model": "foxcosmetics:cosmetic/fox_tail_self"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400006
+      },
+      "model": "foxcosmetics:cosmetic/snow_fox_tail_self"
+    }
+  ]
+}

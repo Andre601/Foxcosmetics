@@ -1,0 +1,26 @@
+name: Create Zip files
+
+on:
+  release:
+    types:
+      - published
+    branches:
+      - main
+
+job:
+  generateZips:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: main
+      - name: Zip files
+        run: |
+          zip -r Foxcosmetics-Vanilla-v${{ github.event.release.tag_name }}.zip cosmeticscore/vanilla/ resource_pack/
+          zip -r Foxcosmetics-ItemsAdder-v${{ github.event.release.tag_name }}.zip cosmeticscore/itemsadder/ resource_pack/assets/foxcosmetics/
+      - name: Upload files
+        uses: AButler/upload-release-assets@v2.0
+        with:
+          files: 'Foxcosmetics-Vanilla-v${{ github.event.release.tag_name }}.zip;Foxcosmetics-ItemsAdder-v${{ github.event.release.tag_name }}.zip'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}

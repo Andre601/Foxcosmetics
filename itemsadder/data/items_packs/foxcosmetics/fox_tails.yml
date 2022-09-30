@@ -1,0 +1,15 @@
+info:
+  namespace: foxcosmetics
+items:
+  fox_tail:
+    display_name: "Fox Tail"
+    resource:
+      material: IRON_HORSE_ARMOR
+      generate: false
+      model_path: cosmetic/fox_tail
+  snow_fox_tail:
+    display_name: "Snow Fox Tail"
+    resource:
+      material: IRON_HORSE_ARMOR
+      generate: false
+      model_path: cosmetic/snow_fox_tail

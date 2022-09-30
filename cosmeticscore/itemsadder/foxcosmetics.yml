@@ -1,0 +1,33 @@
+cosmetics:
+  fox_ears:
+    display_name: "Fox Ears"
+    type: HAT
+    model:
+      gui: iron_horse_armor
+      normal: iron_horse_armor
+    dye:
+      enabled: false
+  snow_fox_ears:
+    display_name: "Snow Fox Ears"
+    type: HAT
+    model:
+      gui: iron_horse_armor
+      normal: iron_horse_armor
+    dye:
+      enabled: false
+  fox_tail:
+    display_name: "Fox Tail"
+    type: BODY_ITEM
+    model:
+      gui: iron_horse_armor
+      normal: iron_horse_armor
+    dye:
+      enabled: false
+  snow_fox_tail:
+    display_name: "Snow Fox Tail"
+    type: BODY_ITEM
+    model:
+      gui: iron_horse_armor
+      normal: iron_horse_armor
+    dye:
+      enabled: false
