@@ -98,3 +98,5 @@ The following installation steps are for servers using ItemsAdder.
     - Depending on your hosting method will you need to update your resource pack URL and run `/iatexture all`.
 5. Extract the `foxcosmetics.yml` file from `cosmeticscore/itemsadder/` and copy it into `plugins/CosmeticsCore/cosmetics/`
 6. Run `/cosmeticsconfig cosmetics reload`
+
+[releases]: https://github.com/Andre601/Foxcosmetics/releases/latest
