@@ -17,10 +17,10 @@ jobs:
           ref: main
       - name: Zip files
         run: |
-          zip -r Foxcosmetics-Vanilla-v${{ github.event.release.tag_name }}.zip cosmeticscore/vanilla/ resource_pack/
-          zip -r Foxcosmetics-ItemsAdder-v${{ github.event.release.tag_name }}.zip cosmeticscore/itemsadder/ resource_pack/assets/foxcosmetics/ itemsadder/
+          zip -r Foxcosmetics-Vanilla-${{ github.event.release.tag_name }}.zip cosmeticscore/vanilla/ resource_pack/
+          zip -r Foxcosmetics-ItemsAdder-${{ github.event.release.tag_name }}.zip cosmeticscore/itemsadder/ resource_pack/assets/foxcosmetics/ itemsadder/
       - name: Upload files
         uses: AButler/upload-release-assets@v2.0
         with:
-          files: 'Foxcosmetics-Vanilla-v${{ github.event.release.tag_name }}.zip;Foxcosmetics-ItemsAdder-v${{ github.event.release.tag_name }}.zip'
+          files: 'Foxcosmetics-Vanilla-${{ github.event.release.tag_name }}.zip;Foxcosmetics-ItemsAdder-${{ github.event.release.tag_name }}.zip'
           repo-token: ${{ secrets.GITHUB_TOKEN }}
