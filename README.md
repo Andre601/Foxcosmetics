@@ -31,8 +31,7 @@ Please read the [HOW_TO_INSTALL.md][installation] file for how to install this a
 [installation]: https://github.com/Andre601/Foxcosmetics/blob/main/HOW_TO_INSTALL.md
 
 <!-- Images -->
-[cosmeticscore-banner]: https://github.com/Andre601/Foxcosmetics/blob/main/.assets/cosmeticscore_addon-banner.png
-[fox-front]: https://rawcdn.githack.com/Andre601/Foxcosmetics/0afee517d1425659594f7529bfc618e76f6879ac/.assets/fox-front.png
-[fox-back]: https://rawcdn.githack.com/Andre601/Foxcosmetics/0afee517d1425659594f7529bfc618e76f6879ac/.assets/fox-back.png
-[snow-fox-front]: https://rawcdn.githack.com/Andre601/Foxcosmetics/0afee517d1425659594f7529bfc618e76f6879ac/.assets/snow-fox-front.png
-[snow-fox-back]: https://rawcdn.githack.com/Andre601/Foxcosmetics/0afee517d1425659594f7529bfc618e76f6879ac/.assets/snow-fox-back.png
+[fox-front]: https://rawcdn.githack.com/Andre601/Foxcosmetics/3403cc80875ac50efd9fc19e0bf1e530217c7e35/.assets/fox-front.png
+[fox-back]: https://rawcdn.githack.com/Andre601/Foxcosmetics/3403cc80875ac50efd9fc19e0bf1e530217c7e35/.assets/fox-back.png
+[snow-fox-front]: https://rawcdn.githack.com/Andre601/Foxcosmetics/3403cc80875ac50efd9fc19e0bf1e530217c7e35/.assets/snow-fox-front.png
+[snow-fox-back]: https://rawcdn.githack.com/Andre601/Foxcosmetics/3403cc80875ac50efd9fc19e0bf1e530217c7e35/.assets/snow-fox-back.png
