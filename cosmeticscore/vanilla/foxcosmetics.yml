@@ -21,6 +21,7 @@ cosmetics:
     model:
       gui: iron_horse_armor:400003
       normal: iron_horse_armor:400003
+      self: iron_horse_armor:400005
     dye:
       enabled: false
   snow_fox_tail:
@@ -29,5 +30,6 @@ cosmetics:
     model:
       gui: iron_horse_armor:400004
       normal: iron_horse_armor:400004
+      self: iron_horse_armor:400006
     dye:
       enabled: false

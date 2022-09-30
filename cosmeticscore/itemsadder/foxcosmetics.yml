@@ -3,31 +3,33 @@ cosmetics:
     display_name: "Fox Ears"
     type: HAT
     model:
-      gui: iron_horse_armor
-      normal: iron_horse_armor
+      gui: foxcosmetics:fox_ears
+      normal: foxcosmetics:fox_ears
     dye:
       enabled: false
   snow_fox_ears:
     display_name: "Snow Fox Ears"
     type: HAT
     model:
-      gui: iron_horse_armor
-      normal: iron_horse_armor
+      gui: foxcosmetics:snow_fox_ears
+      normal: foxcosmetics:snow_fox_ears
     dye:
       enabled: false
   fox_tail:
     display_name: "Fox Tail"
     type: BODY_ITEM
     model:
-      gui: iron_horse_armor
-      normal: iron_horse_armor
+      gui: foxcosmetics:fox_tail
+      normal: foxcosmetics:fox_tail
+      self: foxcosmetics:fox_tail_self
     dye:
       enabled: false
   snow_fox_tail:
     display_name: "Snow Fox Tail"
     type: BODY_ITEM
     model:
-      gui: iron_horse_armor
-      normal: iron_horse_armor
+      gui: foxcosmetics:snow_fox_tail
+      normal: foxcosmetics:snow_fox_tail
+      self: foxcosmetics:snow_fox_tail_self
     dye:
       enabled: false

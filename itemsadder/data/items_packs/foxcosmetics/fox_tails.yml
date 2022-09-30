@@ -13,3 +13,15 @@ items:
       material: IRON_HORSE_ARMOR
       generate: false
       model_path: cosmetic/snow_fox_tail
+  fox_tail_self:
+    display_name: "Fox Tail (Hidden)"
+    resource:
+      material: IRON_HORSE_ARMOR
+      generate: false
+      model_path: cosmetic/fox_tail_self
+  snow_fox_tail_self:
+    display_name: "Snow Fox Tail (Hidden)"
+    resource:
+      material: IRON_HORSE_ARMOR
+      generate: false
+      model_path: cosmetic/snow_fox_tail_self
