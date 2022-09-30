@@ -1,7 +1,7 @@
 # Foxcosmetics
 
 <a href="https://www.spigotmc.org/resources/105324/">
-  <img alt="cosmeticscore-addon-banner" src="https://rawcdn.githack.com/Andre601/Foxcosmetics/0afee517d1425659594f7529bfc618e76f6879ac/.assets/cosmeticscore_addon-banner.png" height="125">
+  <img alt="cosmeticscore-addon-banner" src="https://rawcdn.githack.com/Andre601/Foxcosmetics/0afee517d1425659594f7529bfc618e76f6879ac/.assets/cosmeticscore_addon-banner.png" height="100">
 </a>
 <a href="https://discord.gg/6dazXp6" target="_blank">
   <img alt="discord" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/minimal/social/discord-singular_vector.svg" height="64" align="right">
