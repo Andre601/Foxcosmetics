@@ -19,6 +19,36 @@ It adds 2 fox ears and 2 fox tails to equip as cosmetics. Their designs are insp
 
 Please read the [HOW_TO_INSTALL.md][installation] file for how to install this addon for either the vanilla resource pack or for one made by ItemsAdder.
 
+## Troubleshooting
+
+### I can't see the tail for myself but it shows in the wardrobe
+
+That's because a different model is used for the Self player. The self-model has the tail hidden for you.
+To fix this, remove the `self` option from the `model` section in the `foxcosmetics.yml`
+
+ItemsAdder version:
+```yaml
+# ...
+  fox_tail:
+    display_name: "Fox Tail"
+    type: BODY_ITEM
+    model:
+      gui: foxcosmetics:fox_tail
+      normal: foxcosmetics:fox_tail
+      self: foxcosmetics:fox_tail # <-- Remove this line
+    dye:
+      enabled: false
+  snow_fox_tail:
+    display_name: "Snow Fox Tail"
+    type: BODY_ITEM
+    model:
+      gui: foxcosmetics:snow_fox_tail
+      normal: foxcosmetics:snow_fox_tail
+      self: foxcosmetics:snow_fox_tail # <-- Remove this line
+    dye:
+      enabled: false
+```
+
 ## Screenshots
 
 ![fox-front]  
